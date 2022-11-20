@@ -19,4 +19,6 @@
 
 -Интегрирована карта с помощью API Яндекс карт.
 
--Имеется деплой приложения на сервер.
+-Имеется деплой приложения на сервер: https://danrayss.github.io/WeatherApp/
+
+![image](https://user-images.githubusercontent.com/113042616/202887606-9ba62ce9-1fd0-4e4b-85bb-c99a4dbfedb3.png)
