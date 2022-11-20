@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --white-color: #fff;
+    --blue-color: #355FCA;
+    --blue-darker-color: #25438d;
+    --blue-dark-color: #1b3065;
+    --black-color: #000;
+    --gray-color: #4d4d4d;
+}
+
+button {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    border: none;
+    background: none;
+    outline: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+label,
+span {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 0;
+}
+
+.coordinats {
+    display: flex;
+    flex-direction: column;
+}
+
+.coordinats__wrapper {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coordinats__wrapper__list {
+    width: 617px;
+    padding: 0 10px;
+}
+
+.coordinats__wrapper__item {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 30px;
+}
+
+.coordinats__wrapper__latitude,
+.coordinats__wrapper__longitude {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coordinats__wrapper__latitude__input,
+.coordinats__wrapper__longitude__input {
+    color: var(--gray-color);
+    font-size: 40px;
+    height: 49px;
+    width: 400px;
+    border: 2px solid var(--black-color);
+}
+
+.coordinats__wrapper__button {
+    margin-bottom: 30px;
+    width: 100%;
+    height: 91px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    border-radius: 8px;
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.coordinats__wrapper__button:hover {
+    background-color: var(--blue-darker-color);
+}
+
+.coordinats__wrapper__button:active {
+    background-color: var(--blue-dark-color);
+}
+
+.coordinats__data__item {
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.widgets {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    width: 617px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.widget {
+    padding: 6px 6px;
+    margin-bottom: 10px;
+    width: 49%;
+    border: 2px solid var(--black-color);
+    border-radius: 8px;
+}
+
+.widget__map {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px;
+}
+
+.widget__info-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.widget__left-side {
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__left-side__coordinats {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__right-side_icon {
+    width: 64px;
+    height: 64px;
+}
+
+.coordinats__wrapper_error {
+    text-align: center;
+    color: var(--blue-dark-color);
+}

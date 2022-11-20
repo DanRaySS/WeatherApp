@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./icons/favicon/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Weather-app</title>
+</head>
+
+<body>
+    <section class="coordinats">
+        <div class="container">
+            <div class="coordinats__wrapper">
+                <ul class="coordinats__wrapper__list">
+                    <li class="coordinats__wrapper_error"></li>
+                    <li class="coordinats__wrapper__item">
+                        <label class="coordinats__wrapper__latitude">Широта
+                            <input class="coordinats__wrapper__latitude__input" type="number">
+                        </label>
+                    </li>
+                    <li class="coordinats__wrapper__item">
+                        <label class="coordinats__wrapper__longitude">Долгота
+                            <input class="coordinats__wrapper__longitude__input" type="number">
+                        </label>
+                    </li>
+                </ul>
+                <button onclick="addWidget()" class="coordinats__wrapper__button" type="submit">Показать
+                    погоду</button>
+            </div>
+        </div>
+    </section>
+    <section class="widgets"></section>
+    <script src="script.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=efa4596a-4929-49da-b6b8-88ebc1595795&lang=ru_RU"
+        type="text/javascript"></script>
+</body>
+
+</html>
