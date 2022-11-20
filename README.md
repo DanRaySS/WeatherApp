@@ -13,5 +13,6 @@
 -Можно добавить несколько виджетов с погодой.<br/>
 -Интегрирована карта с помощью API Яндекс карт.<br/>
 -Имеется деплой приложения на сервер: https://danrayss.github.io/WeatherApp/<br/>
+
 ![image](https://user-images.githubusercontent.com/113042616/202887606-9ba62ce9-1fd0-4e4b-85bb-c99a4dbfedb3.png)<br/>
 ![image](https://user-images.githubusercontent.com/113042616/202887866-d778239d-9390-4aec-855b-76e394c93b43.png)
